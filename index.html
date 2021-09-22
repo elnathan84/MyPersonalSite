@@ -2,9 +2,35 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Elnathan's Cafe</title>
+    <title>frostbyte - Home</title>
+    <link rel="icon"
+      type="image/ico"
+      href="images/favicon.ico">
+    <style>
+      body, html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+      }
+
+      .top{
+        background-image: url("images/bg.jpg");
+        height: 42%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+
+      ul#menu {
+        padding: 0;
+      }
+
+    </style>
   </head>
-  <body>
+  <body style="background: #3e5785">
+    <div class="top">
     <!--Top Section-->
     <table>
       <tr>
@@ -96,7 +122,9 @@
       </tr>
     </table>
     <hr>
-    <a href="hobbies.html">Hobbies</a>
-    <a href="contacts.html">Contacts</a>
+    <ul id="links" align = "center">
+      <button><a href="hobbies.html">Hobbies</a></button>
+      <button><a href="contacts.html">Contacts</a></button>
+    </ul>
   </body>
 </html>
